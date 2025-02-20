@@ -14,7 +14,6 @@ This is a classic Breakout-style game built using HTML5, CSS, and JavaScript. Th
 - `styles/`: Folder containing `style.css` for the page's appearance.
 - `scripts/`: Folder containing `game.js` which holds the game logic.
 - `assets/`: Folder containing images and sounds used in the game.
-- `libs/`: Folder containing the Bootstrap framework files used for modals and buttons.The game uses Bootstrap 5 for styling and modals. Download the Bootstrap CSS and JS files from Bootstrap Download. Alternatively, you can link directly to the Bootstrap CDN in index.html
 
 ## Controls:
 - **Left Arrow**: Move paddle left.
