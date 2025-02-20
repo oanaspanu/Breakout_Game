@@ -1,0 +1,90 @@
+/*
+--oxford-blue: #0E1C30ff;
+--marian-blue: #3D4675ff;
+--ultra-violet: #625A89ff;
+--pomp-and-power: #90719Bff;
+--lilac: #C9A2BDff;
+*/
+
+body {
+    background-color: black;
+}
+
+#titleContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#titleStyle{
+    color:  #C9A2BDff;;
+    font-size: 35px;
+    font-family: monospace;
+    margin-top: 20px;
+}
+
+#canvasContainer{ 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+#breakOut{
+    border: 2px solid black;
+    filter: blur(10px);
+}
+
+#scoreDisplay {
+    position: absolute;
+    color: #C9A2BDff;
+    font-size: 18px;
+    font-family: monospace;
+    margin-top: 10px;
+    margin-right: 1050px;
+}
+
+#levelDisplay {
+    position: absolute;
+    color: #C9A2BDff;
+    font-size: 18px;
+    font-family: monospace;
+    margin-top: 10px;
+    margin-left: 1050px;
+}
+
+
+#container{
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+}
+
+#btnStart {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.457);
+    color:  #C9A2BDff;
+    font-size: 30px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+#modalStatus .modal-content {
+    background-color: #C9A2BDff; 
+    color: #0E1C30ff;
+    border: none;
+    border-radius: 10px;
+ }
+
+#modalStatus .btn-primary {
+    background-color: #3D4675ff;
+    border-color: #3D4675ff;
+}
+
+#modalStatus .btn-primary:hover {
+    background-color: #0E1C30ff;
+    border-color: #0E1C30ff;
+}
+

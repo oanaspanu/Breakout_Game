@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breakout Game</title>
+  <link type="text/css" rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+  <link type="text/css" rel="stylesheet" href="styles/style.css">
+  <script type="text/javascript" src="libs/bootstrap/js/bootstrap.js"></script>
+  <script type="text/javascript" src="scripts/game.js"></script>
+</head>
+
+<body>
+  <div id="titleContainer">
+    <h1 id="titleStyle">Breakout Game</h1>
+  </div>
+
+  <div id="canvasContainer">
+    <p id="scoreDisplay">Score: 0</p>
+    <p id="levelDisplay">Level: 1</p>
+    <canvas id="breakOut" width="1200" height="600"></canvas>
+  </div>
+
+  <div id="container">
+    <button type="button" class="btn btn-primary" id="btnStart">Play</button>
+  </div>
+
+  <div class="modal fade" id="modalStatus" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="modalStatusLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalStatusTitle"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modalStatusBody"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="btnRetry">Play again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
